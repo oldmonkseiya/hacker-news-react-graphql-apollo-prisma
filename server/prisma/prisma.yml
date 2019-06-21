@@ -1,6 +1,6 @@
 # Specifies the HTTP endpoint of your Prisma API.
 #endpoint: ''
-endpoint: https://eu1.prisma.sh/seiyachida-337b0d/server/dev
+endpoint: https://test-server-29ed62921b.herokuapp.com
 
 # Defines your models, each model is mapped to the database as a table.
 datamodel: datamodel.prisma

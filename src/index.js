@@ -15,7 +15,7 @@ import { WebSocketLink } from "apollo-link-ws";
 import { getMainDefinition } from "apollo-utilities";
 
 const httpLink = createHttpLink({
-  uri: "http://localhost:4000"
+  uri: "/graphql"
 });
 
 const authLink = setContext((_, { headers }) => {
